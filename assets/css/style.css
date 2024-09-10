@@ -340,7 +340,7 @@ body.active { overflow: hidden; }
   z-index: 4;
 }
 
-.nav-open-btn{
+.barv-open-btn{
   position: absolute;
   right: 2.5rem;
 }
@@ -1403,8 +1403,16 @@ h1{
   }
 
   #Project-1{
-    height: 400px;
+    height: 350px;
+    z-index: 1;
     width: 200px;
+  }
+
+
+  #Project-2{
+    height: 300px;
+    z-index: 1;
+    width: 450px;
   }
 
 

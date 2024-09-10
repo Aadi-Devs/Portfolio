@@ -479,7 +479,7 @@ body.active { overflow: hidden; }
 .hero {
   padding-block-start: 120px;
   text-align: center;
-  width: 100vw;
+  /* width: 100vw;   */
 }
 
 .her
@@ -558,9 +558,9 @@ h1{
 \*-----------------------------------*/
 
 
-.gallery{
+/* .gallery{
   width: 100vw;
-}
+} */
 
 
 
@@ -919,7 +919,7 @@ h1{
 }
 
 
-/* @media screen and (min-width:1200px){
+@media screen and (min-width:1200px){
   .social-link{
     margin-right: 10rem;
   }
@@ -948,7 +948,7 @@ h1{
   .social-link{
     margin-right: 6rem;
   }
-} */
+}
 
 
 

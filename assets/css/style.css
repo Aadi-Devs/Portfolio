@@ -374,7 +374,7 @@ body.active { overflow: hidden; }
   transition-duration: 0.5s;
 }
 
-.navbar-top .logo .img { width: 130px; }
+.navbar-top .logo .img { width: 50px; }
 
 .nav-close-btn {
   width: 25px;
@@ -475,11 +475,18 @@ body.active { overflow: hidden; }
   text-align: center;
 }
 
+.her
+
 .hero-banner {
   max-width: 150px;
   margin-inline: auto;
   margin-block-end: 20px;
 }
+
+
+
+
+
 
 .hero .wrapper {
   position: relative;
@@ -685,7 +692,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .about .container {
-  display: grid;
+  display: flex;
   gap: 45px;
 }
 
@@ -705,7 +712,7 @@ body.active { overflow: hidden; }
 .about .wrapper::before {
   top: 10px;
   left: 0;
-  background-image: url("../images/about-quote.svg");
+  /* background-image: url("../images/about-quote.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;
@@ -1204,7 +1211,10 @@ body.active { overflow: hidden; }
     z-index: 1;
   }
 
-  .hero-title { text-align: left; }
+  .hero-title { 
+    text-align: left;
+    color: #ff5f25;
+   }
 
   .hero .wrapper {
     --fs-2: 8rem;
@@ -1331,6 +1341,7 @@ body.active { overflow: hidden; }
     left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
+    /* height: 150px; */
     opacity: 0;
     visibility: hidden;
     transition: var(--transition-1);
@@ -1342,6 +1353,10 @@ body.active { overflow: hidden; }
     visibility: visible;
   }
 
+  #Project-1{
+    height: 400px;
+    width: 200px;
+  }
 
 
   /**

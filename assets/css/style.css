@@ -473,6 +473,7 @@ body.active { overflow: hidden; }
 .hero {
   padding-block-start: 120px;
   text-align: center;
+  width: 100%;
 }
 
 .her
@@ -555,6 +556,13 @@ h1{
 /*-----------------------------------*\
   #GALLERY
 \*-----------------------------------*/
+
+
+.gallery{
+  width: 100%;
+}
+
+
 
 .gallery-list {
   display: grid;

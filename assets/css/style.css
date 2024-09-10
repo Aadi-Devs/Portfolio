@@ -340,6 +340,10 @@ body.active { overflow: hidden; }
   z-index: 4;
 }
 
+.nav-open-btn{
+  margin-right: 3rem;
+}
+
 
 .header.active {
   background-color: var(--eerie-black);

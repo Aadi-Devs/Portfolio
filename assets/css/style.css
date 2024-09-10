@@ -334,14 +334,15 @@ body.active { overflow: hidden; }
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   padding-block: 18px;
   transition: var(--transition-2);
   z-index: 4;
 }
 
 .nav-open-btn{
-  margin-right: 3rem;
+  position: absolute;
+  right: 2.5rem;
 }
 
 
@@ -478,7 +479,7 @@ body.active { overflow: hidden; }
 .hero {
   padding-block-start: 120px;
   text-align: center;
-  /* width: screen; */
+  width: screen;
 }
 
 .her
@@ -557,9 +558,9 @@ h1{
 \*-----------------------------------*/
 
 
-/* .gallery{
+.gallery{
   width: screen;
-} */
+}
 
 
 

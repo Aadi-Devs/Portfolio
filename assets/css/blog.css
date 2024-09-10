@@ -561,5 +561,13 @@ footer p{
 
 
 .underConstruction{
+    text-align: center;
     font-size: 5rem;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 468px) {
+    .underConstruction{
+        font-size: 2rem;
+    }
 }

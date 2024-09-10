@@ -340,6 +340,7 @@ body.active { overflow: hidden; }
   z-index: 4;
 }
 
+
 .header.active {
   background-color: var(--eerie-black);
   padding-block: 12px;
@@ -473,7 +474,7 @@ body.active { overflow: hidden; }
 .hero {
   padding-block-start: 120px;
   text-align: center;
-  width: 100%;
+  /* width: screen; */
 }
 
 .her
@@ -552,9 +553,9 @@ h1{
 \*-----------------------------------*/
 
 
-.gallery{
-  width: 100%;
-}
+/* .gallery{
+  width: screen;
+} */
 
 
 
@@ -708,10 +709,6 @@ h1{
   gap: 45px;
 }
 
-.about{
-  width: 100%;
-}
-
 .about .wrapper,
 .about-banner { padding-inline-start: 45px; }
 
@@ -795,9 +792,6 @@ h1{
 .service-card .btn-icon svg { width: 25px; }
 
 
-.service{
-  width: 100%;
-}
 
 
 
@@ -852,13 +846,6 @@ h1{
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
-
-
-.footer{
-  width: 100%;
-}
-
 
 .footer { position: relative; }
 

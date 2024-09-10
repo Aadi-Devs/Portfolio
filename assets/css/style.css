@@ -479,7 +479,7 @@ body.active { overflow: hidden; }
 .hero {
   padding-block-start: 120px;
   text-align: center;
-  width: screen;
+  width: 100vw;
 }
 
 .her
@@ -559,7 +559,7 @@ h1{
 
 
 .gallery{
-  width: screen;
+  width: 100vw;
 }
 
 

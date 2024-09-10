@@ -561,8 +561,8 @@ footer p{
 
 
 .underConstruction{
-    text-align: center;
-    font-size: 5rem;
+    height: screen;
+    width: screen;
 }
 
 
